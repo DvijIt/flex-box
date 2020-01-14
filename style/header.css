@@ -1,0 +1,67 @@
+.header {
+  width: 1140px;
+  height: 62px;
+  margin: auto;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__image {
+  width: 60px;
+  height: 60px;
+}
+
+.logo__text {
+  margin-left: 15px;
+}
+
+.logo__name {
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo__description {
+  font-size: 18px;
+  line-height: 25px;
+  opacity: .6;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-top: 7px;
+  margin-right: 75px;
+}
+
+.navigation__item {
+  color: #2D292D;
+  text-decoration: none;
+  line-height: 25px;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.navigation__item_selected {
+  font-weight: 700;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
+.navigation__arrow {
+  display: inline-block;
+  height: 5px;
+  width: 8px;
+  margin-left: 11px;
+  background-image: url(/img/Arrow.png);
+}
+
+.top-section {
+  background-color: #F3C6BD;
+  padding-top: 39px;
+}
