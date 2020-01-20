@@ -469,7 +469,6 @@
 .order__illustration {
   display: block;
   max-width: 100%;
-  margin: auto;
 }
 @media screen and (min-width: 1400px) {
   .order__illustration {
