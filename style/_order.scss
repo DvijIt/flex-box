@@ -21,7 +21,7 @@
     max-width: 100%;
 
     @include for-large-up {
-      max-width: 269px;
+      width: 269px;
       margin-right: 121px;
     }
   }
