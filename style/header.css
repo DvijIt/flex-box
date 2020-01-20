@@ -93,6 +93,7 @@
     height: 62px;
     margin: auto;
     display: flex;
+    background-color: transparent;
   }
 
   .header__menu-button {
