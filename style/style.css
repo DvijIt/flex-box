@@ -10,7 +10,6 @@ html {
 
 .page {
   width: 100%;
-  overflow-x: hidden;
 }
 
 @media screen and (min-width: 400px) {
