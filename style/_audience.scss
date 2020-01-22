@@ -1,0 +1,107 @@
+.audience {
+  padding: 50px 15px;
+  background-color: #edf8fb;
+  mix-blend-mode: normal;
+
+  @include for-large-up {
+    padding: 110px 130px;
+  }
+
+  &-top {
+
+    @include for-large-up {
+      width: 555px;
+      margin: 0 auto;
+    }
+  }
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  &__title {
+    margin-top: 17px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.357143px;
+  }
+
+  &__text {
+    margin: 0;
+    margin-top: 18px;
+    text-align: center;
+  }
+
+  .headline__actions {
+    margin-top: 30px;
+
+    @include for-large-up {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+    @include for-large-up {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &-item {
+      margin-top: 10px;
+      padding: 22px 33px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
+      background-blend-mode: overlay, normal;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:hover {
+        background-color: #3141C5;
+
+        .audience__image-caption {
+          color: #fff;
+        }
+      }
+
+      @include for-large-up {
+        min-width: 262px;
+        margin-left: 30px;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+
+    }
+  }
+
+  &__figure {
+    margin: 0 auto;
+  }
+
+  &__image {
+    display: block;
+    margin: 0 auto;
+
+    &-caption {
+      margin-top: 22px;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+}
