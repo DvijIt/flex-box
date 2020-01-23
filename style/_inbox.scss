@@ -50,6 +50,7 @@
     font-size: 22px;
     line-height: 34px;
     color: $color-subtitle;
+    margin: 0;
     margin-top: 32px;
 
     @include for-large-up {
@@ -63,6 +64,7 @@
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.357143px;
+    margin: 0;
     margin-top: 17px;
 
     @include for-large-up {
