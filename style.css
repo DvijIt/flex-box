@@ -351,7 +351,7 @@
   margin-top: 13px;
 }
 .tip__figure {
-  margin: 25px 0 40px;
+  margin: 20px 0 40px;
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -617,6 +617,7 @@
   margin: 0;
 }
 .communication__title {
+  margin: 0;
   margin-top: 17px;
   font-weight: 700;
   font-size: 40px;
@@ -773,6 +774,9 @@
     display: flex;
     justify-content: center;
   }
+}
+.audience .headline__actions .headline__learn__more-btn {
+  margin-top: 12px;
 }
 .audience__block {
   display: flex;
