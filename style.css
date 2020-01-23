@@ -148,6 +148,7 @@
 }
 @media screen and (min-width: 1400px) {
   .headline__content {
+    margin: 0;
     position: absolute;
     z-index: 1;
   }
@@ -549,6 +550,8 @@
   .review {
     margin-top: 44px;
     padding: 30px;
+    box-shadow: none;
+    border-bottom: 1px solid #0185D0;
   }
 }
 .review-text {
@@ -732,6 +735,7 @@
   }
 }
 .audience__subtitle {
+  margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
@@ -745,8 +749,16 @@
   text-align: center;
   letter-spacing: -0.357143px;
 }
+@media screen and (min-width: 1400px) {
+  .audience__title {
+    font-size: 56px;
+    line-height: 56px;
+  }
+}
 .audience__text {
   margin: 0;
+  font-size: 24px;
+  line-height: 34px;
   margin-top: 18px;
   text-align: center;
 }
@@ -836,15 +848,14 @@
 }
 .feedback__text {
   margin: 0 auto;
-  margin-top: 18px;
+  margin-top: 28px;
   font-size: 24px;
   line-height: 34px;
+  text-align: left;
 }
 @media screen and (min-width: 1400px) {
   .feedback__text {
     width: 750px;
-    margin-top: 28px;
-    text-align: center;
   }
 }
 .feedback__autor {

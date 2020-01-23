@@ -100,6 +100,8 @@
   @include for-large-up {
     margin-top: 44px;
     padding: 30px;
+    box-shadow: none;
+    border-bottom: 1px solid #0185D0;
   }
 
   &-text {

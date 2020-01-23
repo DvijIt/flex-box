@@ -22,15 +22,14 @@
 
   &__text {
     margin: 0 auto;
-    margin-top: 18px;
+    margin-top: 28px;
     font-size: 24px;
     line-height: 34px;
+    text-align: left;
 
 
     @include for-large-up {
       width: 750px;
-      margin-top: 28px;
-      text-align: center;
     }
   }
 

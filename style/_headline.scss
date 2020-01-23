@@ -14,6 +14,7 @@
     margin: 35px 15px;
 
     @include for-large-up {
+      margin: 0;
       position: absolute;
       z-index: 1;
     }
