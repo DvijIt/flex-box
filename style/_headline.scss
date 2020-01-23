@@ -20,6 +20,7 @@
   }
 
   &__title {
+    margin: 0;
     font-weight: 700;
     font-size: 50px;
     line-height: 50px;
@@ -31,7 +32,6 @@
       font-size: 80px;
       line-height: 78px;
       letter-spacing: -0.5px;
-      margin: 0;
     }
   }
 
