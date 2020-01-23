@@ -35,6 +35,7 @@
     @include for-large-up {
       font-size: 56px;
       line-height: 56px;
+      margin-top: 24px;
     }
   }
 
@@ -55,6 +56,9 @@
     }
     .headline__learn__more-btn {
       margin-top: 12px;
+      @include for-large-up {
+        margin-top: 0;
+      }
     }
   }
 
@@ -66,11 +70,12 @@
     @include for-large-up {
       flex-direction: row;
       justify-content: space-between;
+      margin-top: 111px;
     }
 
     &-item {
-      margin-top: 10px;
-      padding: 22px 33px;
+      margin-top: 15px;
+      padding: 22px 0 33px;
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 1e-05) 100%), #FFFFFF;
       background-blend-mode: overlay, normal;
       border-radius: 8px;
@@ -91,6 +96,7 @@
       @include for-large-up {
         min-width: 262px;
         margin-left: 30px;
+        margin-top: 0;
 
         &:first-child {
           margin-left: 0;

@@ -757,6 +757,7 @@
   .audience__title {
     font-size: 56px;
     line-height: 56px;
+    margin-top: 24px;
   }
 }
 .audience__text {
@@ -778,6 +779,11 @@
 .audience .headline__actions .headline__learn__more-btn {
   margin-top: 12px;
 }
+@media screen and (min-width: 1400px) {
+  .audience .headline__actions .headline__learn__more-btn {
+    margin-top: 0;
+  }
+}
 .audience__block {
   display: flex;
   flex-direction: column;
@@ -787,11 +793,12 @@
   .audience__block {
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 111px;
   }
 }
 .audience__block-item {
-  margin-top: 10px;
-  padding: 22px 33px;
+  margin-top: 15px;
+  padding: 22px 0 33px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #FFFFFF;
   background-blend-mode: overlay, normal;
   border-radius: 8px;
@@ -810,6 +817,7 @@
   .audience__block-item {
     min-width: 262px;
     margin-left: 30px;
+    margin-top: 0;
   }
   .audience__block-item:first-child {
     margin-left: 0;
